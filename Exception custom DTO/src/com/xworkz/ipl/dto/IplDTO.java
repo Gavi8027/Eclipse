@@ -1,7 +1,5 @@
 package com.xworkz.ipl.dto;
 
-import com.xworkz.ipl.AbstractAuditDTO;
-
 public class IplDTO extends AbstractAuditDTO{
 	
 	private String teamName;

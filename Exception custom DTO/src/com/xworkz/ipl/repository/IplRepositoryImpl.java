@@ -1,4 +1,4 @@
-package com.xworkz.ipl.dto.repository;
+package com.xworkz.ipl.repository;
 
 import com.xworkz.ipl.dto.IplDTO;
 
@@ -17,7 +17,7 @@ public class IplRepositoryImpl implements IplRepository {
 	}
 		this.iplDtos[this.currentindex]= dto;
 		this.currentindex++;
-		return false;
+		return true;
 	}
 	
 	@Override

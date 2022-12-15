@@ -1,6 +1,6 @@
 package com.xworkz.abstraction;
 
-public class MetroStaff implements MetroRules{
+public class MetroStaff implements MetroRules {
 
 	@Override
 	public boolean inTime() {

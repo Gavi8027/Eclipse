@@ -1,4 +1,4 @@
-package com.xworkz.ipl.dto.repository;
+package com.xworkz.ipl.repository;
 
 import com.xworkz.ipl.dto.IplDTO;
 

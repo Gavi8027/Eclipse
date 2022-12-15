@@ -50,7 +50,6 @@ public class Bike {
 	}
 	 
 
-
 	public int getWheel() {
 	    return this.wheel;
 	}

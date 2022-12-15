@@ -1,17 +1,16 @@
 package com.xworkz.ipl.dto;
 
-import java.io.Serializable;
 import java.time.LocalDateTime;
 
-	public abstract class AbstractAuditDTO implements Serializable{
-
+public class WarAbstractAuditDTO{
+	
 	private String createdBy;
 	private LocalDateTime createdDate;
 	private String updatedBy;
 	private LocalDateTime updatedDate;
 	
 	
-	public AbstractAuditDTO() {
+	public WarAbstractAuditDTO() {
 		System.out.println("calling no arg constractor of absctaudit");
 	}
 	
@@ -55,4 +54,7 @@ import java.time.LocalDateTime;
 		System.out.println(updatedDate);
 	}
 }
+
+
+
 

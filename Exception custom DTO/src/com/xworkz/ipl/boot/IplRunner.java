@@ -3,17 +3,17 @@ package com.xworkz.ipl.boot;
 import java.time.LocalDateTime;
 
 import com.xworkz.ipl.dto.IplDTO;
-import com.xworkz.ipl.dto.repository.IplRepository;
-import com.xworkz.ipl.dto.repository.IplRepositoryImpl;
+import com.xworkz.ipl.repository.IplRepository;
+import com.xworkz.ipl.repository.IplRepositoryImpl;
 
 public class IplRunner {
 
 	public static void main(String[] args) {
 
-		IplRepository iplrepository=new IplRepositoryImpl();	
-		
-		IplDTO ipl=new IplDTO();
-		
+		IplRepository iplrepository = new IplRepositoryImpl();
+
+		IplDTO ipl = new IplDTO();
+
 		ipl.setCreatedBy("gavi");
 		ipl.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl.setUpdatedBy("System");
@@ -30,11 +30,11 @@ public class IplRunner {
 		iplrepository.create(ipl);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl1=new IplDTO();
-		
+
+		IplDTO ipl1 = new IplDTO();
+
 		ipl1.setCreatedBy("gavi");
 		ipl.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl1.setUpdatedBy("System");
@@ -51,11 +51,11 @@ IplDTO ipl1=new IplDTO();
 		iplrepository.create(ipl1);
 		System.out.println(iplrepository.total());
 		ipl1.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl2=new IplDTO();
-		
+
+		IplDTO ipl2 = new IplDTO();
+
 		ipl2.setCreatedBy("gavi");
 		ipl2.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl2.setUpdatedBy("System");
@@ -72,11 +72,11 @@ IplDTO ipl2=new IplDTO();
 		iplrepository.create(ipl2);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl3=new IplDTO();
-		
+
+		IplDTO ipl3 = new IplDTO();
+
 		ipl3.setCreatedBy("gavi");
 		ipl3.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl3.setUpdatedBy("System");
@@ -93,11 +93,11 @@ IplDTO ipl3=new IplDTO();
 		iplrepository.create(ipl3);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl4=new IplDTO();
-		
+
+		IplDTO ipl4 = new IplDTO();
+
 		ipl4.setCreatedBy("gavi");
 		ipl4.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl4.setUpdatedBy("System");
@@ -114,11 +114,11 @@ IplDTO ipl4=new IplDTO();
 		iplrepository.create(ipl4);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl5=new IplDTO();
-		
+
+		IplDTO ipl5 = new IplDTO();
+
 		ipl5.setCreatedBy("gavi");
 		ipl5.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl5.setUpdatedBy("System");
@@ -135,11 +135,11 @@ IplDTO ipl5=new IplDTO();
 		iplrepository.create(ipl5);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl6=new IplDTO();
-		
+
+		IplDTO ipl6 = new IplDTO();
+
 		ipl6.setCreatedBy("gavi");
 		ipl6.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl6.setUpdatedBy("System");
@@ -156,11 +156,11 @@ IplDTO ipl6=new IplDTO();
 		iplrepository.create(ipl6);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl7=new IplDTO();
-		
+
+		IplDTO ipl7 = new IplDTO();
+
 		ipl7.setCreatedBy("gavi");
 		ipl7.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl7.setUpdatedBy("System");
@@ -177,11 +177,11 @@ IplDTO ipl7=new IplDTO();
 		iplrepository.create(ipl7);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl8=new IplDTO();
-		
+
+		IplDTO ipl8 = new IplDTO();
+
 		ipl8.setCreatedBy("gavi");
 		ipl8.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl8.setUpdatedBy("System");
@@ -198,11 +198,11 @@ IplDTO ipl8=new IplDTO();
 		iplrepository.create(ipl8);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl9=new IplDTO();
-		
+
+		IplDTO ipl9 = new IplDTO();
+
 		ipl9.setCreatedBy("gavi");
 		ipl9.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl9.setUpdatedBy("System");
@@ -219,11 +219,11 @@ IplDTO ipl9=new IplDTO();
 		iplrepository.create(ipl9);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
-		
-IplDTO ipl10=new IplDTO();
-		
+
+		IplDTO ipl10 = new IplDTO();
+
 		ipl10.setCreatedBy("gavi");
 		ipl10.setCreatedDate(LocalDateTime.of(2022, 12, 12, 10, 30));
 		ipl10.setUpdatedBy("System");
@@ -240,7 +240,7 @@ IplDTO ipl10=new IplDTO();
 		iplrepository.create(ipl10);
 		System.out.println(iplrepository.total());
 		ipl.showOff();
-		
+
 		System.out.println("==");
 	}
 
