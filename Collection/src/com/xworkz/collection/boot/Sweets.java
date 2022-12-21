@@ -37,6 +37,8 @@ public class Sweets {
 		collection.add(sweet11);
 		collection.add(sweet12);
 		collection.add(sweet13);
+		
+		System.out.println("stroring array values");
 
 		System.out.println(collection);
 
