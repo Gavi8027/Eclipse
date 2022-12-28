@@ -9,9 +9,10 @@ public class HelmetRepositoryImpl implements HelmetRepository {
 
 	@Override
 	public boolean save(HelmetDTO dto) {
-		System.out.println("running create of HelmetDTO+ dto ");
+		System.out.println("running create of HelmetDTO"+ dto);
 		if (this.index >= this.dtos.length) {
 			System.out.println("Arry size exceeded");
+			
 			return false;
 		}
 		this.dtos[this.index] = dto;

@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 
 import com.xworkz.dto.PizzaDTO;
 import com.xworkz.pizza.constant.PizzaSize;
+import com.xworkz.pizza.constant.boot.service.PizzaService;
 import com.xworkz.pizza.constant.boot.service.PizzaService.Pizza;
 import com.xworkz.pizza.constant.boot.service.PizzaServiceimpl;
 
@@ -12,7 +13,7 @@ public class PizzaRunner {
 	public static void main(String[] args) {
 		
 		PizzaDTO pizzaDto = new PizzaDTO();	
-		Pizza pizza = new PizzaServiceimpl();
+		PizzaService pizza = new PizzaServiceimpl();
 		
 		pizzaDto.setPrice(3000);
 		pizzaDto.setType("Veg");

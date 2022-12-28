@@ -163,12 +163,9 @@ public class IndiaDams {
 		for (String ref5 : Dam) {
 			System.out.println(ref5.toLowerCase());
 		}
-		
-		System.out.println("=========Removing elemet==========");
-		
-		
 
-    	  
-      }
-	
+		System.out.println("=========Removing elemet==========");
+
+	}
+
 }

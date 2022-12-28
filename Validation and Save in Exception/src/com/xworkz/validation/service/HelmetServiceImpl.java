@@ -16,7 +16,7 @@ public class HelmetServiceImpl implements HelmetService {
 
 	@Override
 	public boolean validateAndSave(HelmetDTO dto) {
-		System.out.println("running validation"+dto);
+		System.out.println("running validation" + dto);
 		String name = dto.getBrand();
 		Color color = dto.getColor();
 		Helmetype type = dto.getType();
@@ -59,7 +59,7 @@ public class HelmetServiceImpl implements HelmetService {
 
 			boolean saved = this.helmetRepository.save(dto);
 			System.out.println("after validating saving the data" + saved);
-		
+
 		} else {
 			System.out.println("givin data is invalid and not saving");
 		}
