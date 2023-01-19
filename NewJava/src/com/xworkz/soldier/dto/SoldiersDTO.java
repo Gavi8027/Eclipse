@@ -27,7 +27,7 @@ public class SoldiersDTO extends AbstractorAuditDTO {
 	private int id;
 	@NotNull
 	@NotBlank
-	@Size(min = 4, max = 100000)
+	@Size(min = 4, max = 100000,message="Size is invalid")
 	private String rank;
 	@NotNull
 	@NotBlank
